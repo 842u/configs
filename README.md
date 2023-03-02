@@ -4,10 +4,28 @@
 - install custom theme
 
 # ESLINT / STYLELINT / PRETTIER
-- eslint https://www.npmjs.com/package/eslint
-  npx elsint --init
-- npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin
-- npm install --save-dev eslint-config-airbnb-typescript
-- npm install --save-dev prettier
-- npm install --save-dev eslint-plugin-prettier
-- npm install --save-dev eslint-config-prettier
+* ESLint
+  - https://www.npmjs.com/package/eslint
+  - npx elsint --init
+
+* Prettier
+  - https://www.npmjs.com/package/prettier
+
+* eslint-plugin-prettier / eslint-config-prettier
+  - https://github.com/prettier/eslint-plugin-prettier
+  - https://github.com/prettier/eslint-config-prettier
+
+* @typescript-eslint/parser / ypescript-eslint/eslint-plugin
+  - https://typescript-eslint.io/getting-started/
+
+* eslint-config-airbnb-typescript
+  - https://www.npmjs.com/package/eslint-config-airbnb-typescript
+
+* Stylelint
+  - https://stylelint.io/user-guide/get-started
+
+* stylelint-order
+  - https://www.npmjs.com/package/stylelint-order
+
+* stylelint-config-clean-order
+  - https://github.com/kutsan/stylelint-config-clean-order
