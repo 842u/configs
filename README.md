@@ -4,8 +4,8 @@
 - install custom theme
 
 # ESLINT / STYLELINT / PRETTIER
-- eslint
-  https://www.npmjs.com/package/eslint
+- eslint https://www.npmjs.com/package/eslint
+- npx elsint --init
 - npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin
 - npm install --save-dev eslint-config-airbnb-typescript
 - npm install --save-dev prettier
