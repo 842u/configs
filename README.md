@@ -3,9 +3,9 @@
 - install nerd fonts
 - install custom theme
 
-# ESLINT / PRETTIER
-- npm install --save-dev eslint
-- ./node_modules/.bin/eslint --init
+# ESLINT / STYLELINT / PRETTIER
+- eslint
+  https://www.npmjs.com/package/eslint
 - npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin
 - npm install --save-dev eslint-config-airbnb-typescript
 - npm install --save-dev prettier
