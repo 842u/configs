@@ -14,8 +14,14 @@
 * eslint-plugin-prettier / eslint-config-prettier
   - https://github.com/prettier/eslint-plugin-prettier
   - https://github.com/prettier/eslint-config-prettier
+  
+* eslint-config-airbnb
+  - https://www.npmjs.com/package/eslint-config-airbnb
+  
+* eslint-plugin-simple-import-sort
+  - https://www.npmjs.com/package/eslint-plugin-simple-import-sort
 
-* @typescript-eslint/parser / ypescript-eslint/eslint-plugin
+* @typescript-eslint/parser / @typescript-eslint/eslint-plugin
   - https://typescript-eslint.io/getting-started/
 
 * eslint-config-airbnb-typescript
