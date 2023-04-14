@@ -18,6 +18,9 @@
 * eslint-config-airbnb
   - https://www.npmjs.com/package/eslint-config-airbnb
   
+* @next/eslint-plugin-next
+  - https://www.npmjs.com/package/@next/eslint-plugin-next
+  
 * eslint-plugin-simple-import-sort
   - https://www.npmjs.com/package/eslint-plugin-simple-import-sort
 
