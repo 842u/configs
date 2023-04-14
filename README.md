@@ -1,9 +1,8 @@
-# GIT BASH
+## GIT BASH
 - install oh my posh
 - install nerd fonts
 - install custom theme
 
-# ESLINT / STYLELINT / PRETTIER
 ## Prettier
   - https://www.npmjs.com/package/prettier
   - 
