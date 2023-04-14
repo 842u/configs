@@ -4,13 +4,13 @@
 - install custom theme
 
 # ESLINT / STYLELINT / PRETTIER
-* ESLint
+## Prettier
+  - https://www.npmjs.com/package/prettier
+  - 
+## ESLint
   - https://www.npmjs.com/package/eslint
   - npx elsint --init
-
-* Prettier
-  - https://www.npmjs.com/package/prettier
-
+  
 * eslint-plugin-prettier / eslint-config-prettier
   - https://github.com/prettier/eslint-plugin-prettier
   - https://github.com/prettier/eslint-config-prettier
@@ -30,8 +30,11 @@
 * eslint-config-airbnb-typescript
   - https://www.npmjs.com/package/eslint-config-airbnb-typescript
 
-* Stylelint
+# Stylelint
   - https://stylelint.io/user-guide/get-started
+
+* stylelint-prettier
+  - https://www.npmjs.com/package/stylelint-prettier
 
 * stylelint-order
   - https://www.npmjs.com/package/stylelint-order
