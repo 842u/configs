@@ -5,11 +5,11 @@
 
 ## Prettier
   - https://www.npmjs.com/package/prettier
-  - 
+
 ## ESLint
   - https://www.npmjs.com/package/eslint
   - npx elsint --init
-  
+
 * eslint-plugin-prettier / eslint-config-prettier
   - https://github.com/prettier/eslint-plugin-prettier
   - https://github.com/prettier/eslint-config-prettier
