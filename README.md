@@ -7,6 +7,7 @@
   - https://www.npmjs.com/package/prettier
 
 ## ESLint
+#### Vanila
   - https://www.npmjs.com/package/eslint
   - npx elsint --init
 
@@ -17,19 +18,22 @@
 * eslint-config-airbnb
   - https://www.npmjs.com/package/eslint-config-airbnb
   
-* @next/eslint-plugin-next
-  - https://www.npmjs.com/package/@next/eslint-plugin-next
-  
 * eslint-plugin-simple-import-sort
   - https://www.npmjs.com/package/eslint-plugin-simple-import-sort
 
+#### Typescript
 * @typescript-eslint/parser / @typescript-eslint/eslint-plugin
   - https://typescript-eslint.io/getting-started/
 
 * eslint-config-airbnb-typescript
   - https://www.npmjs.com/package/eslint-config-airbnb-typescript
 
+#### Next
+* @next/eslint-plugin-next
+  - https://www.npmjs.com/package/@next/eslint-plugin-next
+
 # Stylelint
+#### Vanila
   - https://stylelint.io/user-guide/get-started
 
 * stylelint-prettier
@@ -39,4 +43,9 @@
   - https://www.npmjs.com/package/stylelint-order
 
 * stylelint-config-clean-order
+  - ⚠️dont need to install stylint-order if using this
   - https://github.com/kutsan/stylelint-config-clean-order
+
+#### SASS
+* stylelint-config-standard-scss
+  - https://www.npmjs.com/package/stylelint-config-standard-scss
