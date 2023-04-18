@@ -37,7 +37,7 @@
 
   - https://www.npmjs.com/package/stylelint-order
 
-  - ⚠️dont need to install stylint-order if using this
+  - ⚠️ Dont need to install stylint-order if using this
   - https://github.com/kutsan/stylelint-config-clean-order
   
 #### Prettier
@@ -59,4 +59,5 @@
   - https://www.npmjs.com/package/@testing-library/react
   
 #### NextJS
+  - ⚠️ use CommonJS modules
   - https://nextjs.org/docs/testing#setting-up-jest-with-the-rust-compiler
