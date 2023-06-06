@@ -10,3 +10,6 @@ Install-ChocolateyPackage -PackageName "python"
 
 Install-ChocolateyPackage -PackageName "git"
 Invoke-Expression -Command "./setup-git.ps1"
+
+Install-ChocolateyPackage -PackageName "gh"
+Invoke-Expression -Command "./setup-gh.ps1"

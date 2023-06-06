@@ -18,3 +18,6 @@ if ($setupGit -eq 'y') {
     git config --global core.ignorecase false
   }
 }
+else {
+  Write-Host "Skipping git setup." -ForegroundColor DarkYellow
+}
