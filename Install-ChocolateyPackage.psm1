@@ -17,7 +17,7 @@ function Install-ChocolateyPackage {
       choco upgrade $PackageName
     }
     else {
-      Write-Host "Skipping $PackageName upgrade..." -ForegroundColor DarkYellow
+      Write-Host "Skipping $PackageName upgrade." -ForegroundColor DarkYellow
     }
   }
   else {
@@ -31,7 +31,7 @@ function Install-ChocolateyPackage {
       choco install $PackageName
     }
     else {
-      Write-Host "Skipping $PackageName installation..." -ForegroundColor DarkYellow
+      Write-Host "Skipping $PackageName installation." -ForegroundColor DarkYellow
     }
   }
 }

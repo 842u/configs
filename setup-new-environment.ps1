@@ -9,3 +9,4 @@ Install-ChocolateyPackage -PackageName "nodejs"
 Install-ChocolateyPackage -PackageName "python"
 
 Install-ChocolateyPackage -PackageName "git"
+Invoke-Expression -Command "./setup-git.ps1"
