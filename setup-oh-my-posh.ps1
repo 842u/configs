@@ -37,6 +37,25 @@ if ($setupOhMyPosh -eq 'y') {
   else {
     Write-Host "Skipping bash profile setup." -ForegroundColor DarkYellow
   }
+
+  $setupPowerShellChoice = Read-Host "Would you like to setup PowerShell theme? (y/n)"
+  $setupPowerShellChoice = $setupPowerShellChoice.ToLower()
+  if ($setupPowerShellChoice -eq 'y') {
+    Write-Host "Setting up PowerShell theme..." -ForegroundColor DarkYellow
+
+    $powerShellProfilePath = "$PSHOME\Profile.ps1"
+    if (Test-Path -Path $powerShellProfilePath) {
+      Remove-Item -Path $powerShellProfilePath
+    }
+    else {
+      New-Item -Path $powerShellProfilePath -ItemType File
+    }
+
+    Set-Content -Path $powerShellProfilePath -Value "oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/842u/configs/main/.mytheme.omp.json'| Invoke-Expression"
+  }
+  else {
+    Write-Host "Skipping PowerShell setup." -ForegroundColor DarkYellow
+  }
 }
 else {
   Write-Host "Skipping Oh My Posh setup." -ForegroundColor DarkYellow
