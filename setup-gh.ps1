@@ -4,6 +4,6 @@ $setupGit = $setupGit.ToLower()
 if ($setupGit -eq 'y') {
   gh auth login
   else {
-    write-host "Skipping GitHub setup." -ForegroundColor DarkYellow
+    Write-Host "Skipping GitHub setup." -ForegroundColor DarkYellow
   }
 }
