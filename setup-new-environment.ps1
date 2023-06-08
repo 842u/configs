@@ -57,4 +57,6 @@ Install-ChocolateyPackage -PackageName "gimp"
 # Install/Upgrade VLC
 Install-ChocolateyPackage -PackageName "vlc"
 
+# Install/Upgrade Komorebi
+Invoke-Expression -Command "./install-upgrade-komorebi.ps1"
 
