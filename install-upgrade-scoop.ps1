@@ -4,9 +4,8 @@ if (-not $scoopPath) {
   Write-Host "Scoop is not installed..." -ForegroundColor DarkYellow
 
   $installChoice = Read-Host "Do you want to install Scoop? (y/n)"
-  $installChoice = $installChoice.ToLower()
 
-  if ($installChoice -eq 'y') {
+  if ($installChoice -ieq 'y') {
     Write-Host "Installing Scoop..." -ForegroundColor DarkYellow
 
     Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
@@ -20,9 +19,8 @@ else {
   Write-Host "Scoop is already installed..." -ForegroundColor DarkYellow
 
   $upgradeChoice = Read-Host "Do you want to upgrade Scoop? (y/n)"
-  $upgradeChoice = $upgradeChoice.ToLower()
 
-  if ($upgradeChoice -eq 'y') {
+  if ($upgradeChoice -ieq 'y') {
     Write-Host "Upgrading Scoop..." -ForegroundColor DarkYellow
     
     scoop update

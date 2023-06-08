@@ -1,12 +1,8 @@
-# TODO Check if bash profile file exists
-
 $setupOhMyPosh = Read-Host "Would you like to setup Oh My Posh? (y/n)"
-$setupOhMyPosh = $setupOhMyPosh.ToLower()
 
-if ($setupOhMyPosh -eq 'y') {
+if ($setupOhMyPosh -ieq 'y') {
   $fontInstallChoice = Read-Host "Would you like to install the recommended fonts? (y/n)"
-  $fontInstallChoice = $fontInstallChoice.ToLower()
-  if ($fontInstallChoice -eq 'y') {
+  if ($fontInstallChoice -ieq 'y') {
     Write-Host "Installing fonts..." -ForegroundColor DarkYellow
     oh-my-posh font install
   }
@@ -15,8 +11,7 @@ if ($setupOhMyPosh -eq 'y') {
   }
 
   $setupBashChoice = Read-Host "Would you like to setup bash profile theme? (y/n)"
-  $setupBashChoice = $setupBashChoice.ToLower()
-  if ($setupOhMyPosh -eq 'y') {
+  if ($setupBashChoice -ieq 'y') {
     Write-Host "Setting up bash profile theme..." -ForegroundColor DarkYellow
     $currentUserDir = $env:USERPROFILE
     $bashProfilePath = Join-Path -Path $currentUserDir -ChildPath ".bash_profile"
@@ -39,8 +34,7 @@ if ($setupOhMyPosh -eq 'y') {
   }
 
   $setupPowerShellChoice = Read-Host "Would you like to setup PowerShell theme? (y/n)"
-  $setupPowerShellChoice = $setupPowerShellChoice.ToLower()
-  if ($setupPowerShellChoice -eq 'y') {
+  if ($setupPowerShellChoice -ieq 'y') {
     Write-Host "Setting up PowerShell theme..." -ForegroundColor DarkYellow
 
     $powerShellProfilePath = "$PSHOME\Profile.ps1"

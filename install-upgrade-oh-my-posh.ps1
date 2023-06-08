@@ -4,9 +4,8 @@ if (-not $ohMyPoshPath) {
   Write-Host "Oh-My-Posh is not installed..." -ForegroundColor DarkYellow
 
   $installChoice = Read-Host "Do you want to install Oh-My-Posh? (y/n)"
-  $installChoice = $installChoice.ToLower()
 
-  if ($installChoice -eq 'y') {
+  if ($installChoice -ieq 'y') {
     Write-Host "Installing Oh-My-Posh..." -ForegroundColor DarkYellow
 
     Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://ohmyposh.dev/install.ps1'))
@@ -20,9 +19,8 @@ else {
   Write-Host "Oh-My-Posh is already installed..." -ForegroundColor DarkYellow
 
   $upgradeChoice = Read-Host "Do you want to upgrade Oh-My-Posh? (y/n)"
-  $upgradeChoice = $upgradeChoice.ToLower()
 
-  if ($upgradeChoice -eq 'y') {
+  if ($upgradeChoice -ieq 'y') {
     Write-Host "Upgrading Oh-My-Posh..." -ForegroundColor DarkYellow
     
     Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://ohmyposh.dev/install.ps1'))
