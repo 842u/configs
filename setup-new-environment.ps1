@@ -1,7 +1,13 @@
 Import-Module "./Install-ChocolateyPackage.psm1"
 
+# Install/Upgrade Scoop
+Invoke-Expression -Command "./install-upgrade-scoop.ps1"
+
 # Install/Upgrade Chocolatey
 Invoke-Expression -Command "./install-upgrade-chocolatey.ps1"
+
+# Install WSL
+Invoke-Expression -Command "./install-wsl.ps1"
 
 # Install/Upgrade PowerShell Core
 Install-ChocolateyPackage -PackageName "powershell-core"
