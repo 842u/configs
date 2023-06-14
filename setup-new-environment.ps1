@@ -18,6 +18,12 @@ Install-ChocolateyPackage -PackageName "nodejs"
 # Install/Upgrade Python
 Install-ChocolateyPackage -PackageName "python"
 
+# Install/Upgrade MSYS2
+Install-ChocolateyPackage -PackageName "msys2"
+
+# Install/Upgrade MinGW64 toolchain
+Invoke-Expression -Command "./install-upgrade-mingw64-toolchain.ps1"
+
 # Install/Upgrade Git
 Install-ChocolateyPackage -PackageName "git"
 Invoke-Expression -Command "./setup-git.ps1"
