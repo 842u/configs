@@ -12,6 +12,10 @@ Invoke-Expression -Command "./install-wsl.ps1"
 # Install/Upgrade PowerShell Core
 Install-ChocolateyPackage -PackageName "powershell-core"
 
+# Install/Upgrade Komorebi
+Invoke-Expression -Command "./install-upgrade-komorebi.ps1"
+Invoke-Expression -Command "./setup-komorebi.ps1"
+
 # Install/Upgrade NodeJS
 Install-ChocolateyPackage -PackageName "nodejs"
 
@@ -63,6 +67,4 @@ Install-ChocolateyPackage -PackageName "gimp"
 # Install/Upgrade VLC
 Install-ChocolateyPackage -PackageName "vlc"
 
-# Install/Upgrade Komorebi
-Invoke-Expression -Command "./install-upgrade-komorebi.ps1"
 
