@@ -1,6 +1,5 @@
 ## Git Bash
-  * Oh my posh
-    - https://ohmyposh.dev/
+  - https://ohmyposh.dev/
 
 ## Prettier
   - https://www.npmjs.com/package/prettier
